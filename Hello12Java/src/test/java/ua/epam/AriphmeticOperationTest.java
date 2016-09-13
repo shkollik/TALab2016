@@ -1,9 +1,6 @@
 package ua.epam;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 import static org.junit.Assert.*;
 
@@ -11,10 +8,10 @@ import static org.junit.Assert.*;
  * Created by Vladyslav_Shkola on 9/13/2016.
  */
 public class AriphmeticOperationTest {
-    AriphmeticOperation a;
+    static AriphmeticOperation a;
 
     @BeforeClass
-    public void runT(){
+    public static void runT(){
         a = new AriphmeticOperation();
     }
     @Test
@@ -36,10 +33,16 @@ public class AriphmeticOperationTest {
         Assert.assertEquals(result, 4.0, 1e-15);
     }
 
+    @Ignore
     @Test
     public void testDiv() throws Exception {
         double result = a.div(2, 2);
         Assert.assertEquals(result, 1.0, 1e-15);
+    }
+
+    @Test (expected = ArithmeticException.class)
+    public void testDivException() throws Exception {
+        a.div(2.0, 0);
     }
 
 }
