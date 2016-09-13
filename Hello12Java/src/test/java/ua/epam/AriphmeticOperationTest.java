@@ -2,6 +2,7 @@ package ua.epam;
 
 import org.junit.*;
 import org.junit.rules.ExpectedException;
+import org.junit.rules.Timeout;
 
 import static org.junit.Assert.*;
 
@@ -19,7 +20,8 @@ public class AriphmeticOperationTest {
     @Rule
     public final ExpectedException exp = ExpectedException.none();
 
-    
+    @Rule
+    public Timeout time = Timeout.millis(1000);
 
     @Test
     public void testAdd() throws Exception {
