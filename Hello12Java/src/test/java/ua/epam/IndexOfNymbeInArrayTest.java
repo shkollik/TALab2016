@@ -20,11 +20,11 @@ public class IndexOfNymbeInArrayTest {
     int [] resBigArray = {3};
 
 
-    static IndexOfNymbeInArray a;
+    static IndexesOfNymbersInArray a;
 
     @BeforeClass
     public static void initialize(){
-        a = new IndexOfNymbeInArray();;
+        a = new IndexesOfNymbersInArray();;
     }
 
 

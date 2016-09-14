@@ -10,11 +10,11 @@ import static org.junit.Assert.*;
  * Created by Vladyslav_Shkola on 9/13/2016.
  */
 public class AriphmeticOperationTest {
-    static AriphmeticOperation a;
+    static ArithmeticOperations a;
 
     @BeforeClass
     public static void runT(){
-        a = new AriphmeticOperation();
+        a = new ArithmeticOperations();
     }
 
     @Rule

@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by Vladyslav_Shkola on 9/13/2016.
  */
-public class LessMore {
+public class MoreLessGame {
     public void rand(int min, int max) {
         int targetNumber = random(min, max);
         //System.out.println("The target targetNumber is "+ targetNumber + " But dont look at it. Try to guess  without help ");

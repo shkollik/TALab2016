@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        LessMore game = new LessMore();
+        MoreLessGame game = new MoreLessGame();
         game.rand(0, 100);
 
 
