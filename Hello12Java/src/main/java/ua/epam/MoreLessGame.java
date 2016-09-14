@@ -23,12 +23,12 @@ public class MoreLessGame {
 
             if (customerInput == targetNumber) {
                 System.out.println("You won ! Congrats!!!");
-                System.out.println("Your previous tries: " + Arrays.toString(Arrays.copyOf(guessArray, numberOfAttempts)));
+                System.out.println("All you tries: " + Arrays.toString(Arrays.copyOf(guessArray, numberOfAttempts)));
                 break;
             }
 
-            if (areThereAnyDublicates(guessArray, customerInput, numberOfAttempts)) {
-                System.out.println("You've already picked that targetNumber!");
+            if (areThereAnyDuplicates(guessArray, customerInput, numberOfAttempts)) {
+                System.out.println("You've already picked that number!");
                 adviceToPlayer(guessArray, numberOfAttempts, min, max);
                 continue;
             }
@@ -54,25 +54,25 @@ public class MoreLessGame {
 
     private void adviceToPlayer(int[] array, int numberOfAttempts, int min, int max) {
         System.out.println("Nice try! But the targetNumber is in range between " + min + " and " + max);
-        System.out.print("Your previous tries: ");
+        System.out.print("So, at the moment all your previous tries: ");
         for (int i = 0; i < numberOfAttempts; i++) {
             System.out.print(array[i] + " ");
         }
         System.out.println(" Try again");
     }
 
-    private boolean areThereAnyDublicates(int[] array, int customerInput, int numberOfCustomerInputs) {
-        boolean dublicatesArePresented = false;
+    private boolean areThereAnyDuplicates(int[] array, int customerInput, int numberOfCustomerInputs) {
+        boolean duplicatesArePresented = false;
         for (int i = 0; i < numberOfCustomerInputs; i++) {
             for (int j = i + 1; j < numberOfCustomerInputs; j++) {
                 if (array[i] == array[j] && array[j] == customerInput) {
-                    dublicatesArePresented = true;
+                    duplicatesArePresented = true;
                     break;
                 }
             }
         }
 
-        return dublicatesArePresented;
+        return duplicatesArePresented;
     }
 
     public int random(int min, int max){

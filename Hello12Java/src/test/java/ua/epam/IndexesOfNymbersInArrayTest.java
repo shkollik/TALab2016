@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 /**
  * Created by Vladyslav_Shkola on 9/14/2016.
  */
-public class IndexOfNymbeInArrayTest {
+public class IndexesOfNymbersInArrayTest {
     int [] arr1 = {};
     int [] arr2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 12, 11, 2, 2, 3, 3, 3, 3, 3, 3, 3};
     int [] arr3 = {4};
