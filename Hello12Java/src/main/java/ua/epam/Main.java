@@ -10,6 +10,9 @@ public class Main {
         LessMore game = new LessMore();
         game.rand(0, 100);
 
+
+
+
     }
 
 }

@@ -9,57 +9,74 @@ import java.util.Scanner;
  */
 public class LessMore {
     public void rand(int min, int max) {
-        Random dice = new Random();
-        int number = dice.nextInt(max); // target number
-//        System.out.println("The target number is close to "+ (number -5) + " But dont look at it. Try to guess  without help ");
+        int targetNumber = random(min, max);
+        //System.out.println("The target targetNumber is "+ targetNumber + " But dont look at it. Try to guess  without help ");
 
-        int [] guessArray = new int [max];
-        int j = 0;
-        System.out.println("Pick number from 0 to 100");
+        int[] guessArray = new int[max];
+        int numberOfAttempts = 0;
+        System.out.println("Pick targetNumber from 0 to 100");
 
-        for(int counter = 0; counter < max; counter++){
+        for (int counter = 0; counter < guessArray.length; counter++) {
             Scanner sc = new Scanner(System.in);
-            String stringCustomerInput;
-            if ((stringCustomerInput = sc.nextLine()).length() > 0){
-                int customerInput = Integer.parseInt(stringCustomerInput);
-                guessArray[j++] = customerInput;
+            int customerInput = sc.nextInt();
+            guessArray[numberOfAttempts++] = customerInput;
 
-
-
-                if(customerInput == number){
-                    System.out.println("You won ! Congrats!!!");
-                    System.out.println("Your previous tries: " + Arrays.toString(Arrays.copyOf(guessArray, j)));
-                    break;
-                }
-
-                if (customerInput < min || customerInput > max){
-                    adviceToPlayer(guessArray, j, min, max);
-                    continue;
-                }
-
-                if (customerInput < number){
-                    min = guessArray[counter]+1;
-                    adviceToPlayer(guessArray, j, min, max);
-                }
-
-                if (customerInput > number){
-                    max=guessArray[counter]-1;
-                    adviceToPlayer(guessArray, j, min, max);
-                }
-
+            if (customerInput == targetNumber) {
+                System.out.println("You won ! Congrats!!!");
+                System.out.println("Your previous tries: " + Arrays.toString(Arrays.copyOf(guessArray, numberOfAttempts)));
+                break;
             }
-            else{
-                System.out.println("Only numbers please");
+
+            if (areThereAnyDublicates(guessArray, customerInput, numberOfAttempts)) {
+                System.out.println("You've already picked that targetNumber!");
+                adviceToPlayer(guessArray, numberOfAttempts, min, max);
+                continue;
             }
+
+            if (customerInput < min || customerInput > max) {
+                adviceToPlayer(guessArray, numberOfAttempts, min, max);
+                continue;
+            }
+
+            if (customerInput < targetNumber) {
+                min = guessArray[counter] + 1;
+                adviceToPlayer(guessArray, numberOfAttempts, min, max);
+            }
+
+            if (customerInput > targetNumber) {
+                max = guessArray[counter] - 1;
+                adviceToPlayer(guessArray, numberOfAttempts, min, max);
+            }
+
 
         }
     }
 
-    private static void adviceToPlayer(int [] array, int j, int min, int max){
-        System.out.println("Nice try! But the number is in range between " + min + " and " + max + " Try again");
-        System.out.println("Your previous tries:");
-        for (int i=0; i<j; i++){
+    private void adviceToPlayer(int[] array, int numberOfAttempts, int min, int max) {
+        System.out.println("Nice try! But the targetNumber is in range between " + min + " and " + max);
+        System.out.print("Your previous tries: ");
+        for (int i = 0; i < numberOfAttempts; i++) {
             System.out.print(array[i] + " ");
         }
+        System.out.println(" Try again");
+    }
+
+    private boolean areThereAnyDublicates(int[] array, int customerInput, int numberOfCustomerInputs) {
+        boolean dublicatesArePresented = false;
+        for (int i = 0; i < numberOfCustomerInputs; i++) {
+            for (int j = i + 1; j < numberOfCustomerInputs; j++) {
+                if (array[i] == array[j] && array[j] == customerInput) {
+                    dublicatesArePresented = true;
+                    break;
+                }
+            }
+        }
+
+        return dublicatesArePresented;
+    }
+
+    public int random(int min, int max){
+        int res = (min + 1) + (int)(Math.random() * (max - min -1));
+        return  res;
     }
 }

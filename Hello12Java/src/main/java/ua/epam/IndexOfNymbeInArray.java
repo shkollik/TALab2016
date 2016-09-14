@@ -6,9 +6,8 @@ import java.util.Arrays;
  * Created by Vladyslav_Shkola on 9/14/2016.
  */
 public class IndexOfNymbeInArray {
-    public int [] getIndexes(int [] array, int number)throws Exception{
-        boolean isAnyMatches= checkIfAtLeastOneMatch(array, number);
-        if (isAnyMatches==false){
+    public int [] getIndexes(int [] array, int number) throws Exception{
+        if (!checkIfAtLeastOneMatch(array, number)){
             int [] emptyArray = {};
             return emptyArray;
         }
