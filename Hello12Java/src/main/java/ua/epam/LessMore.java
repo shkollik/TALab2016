@@ -11,7 +11,7 @@ public class LessMore {
     public void rand(int min, int max) {
         Random dice = new Random();
         int number = dice.nextInt(max); // target number
-        System.out.println(number); // Just for me
+//        System.out.println("The target number is close to "+ (number -5) + " But dont look at it. Try to guess  without help ");
 
         int [] guessArray = new int [max];
         int j = 0;
@@ -30,6 +30,11 @@ public class LessMore {
                     System.out.println("You won ! Congrats!!!");
                     System.out.println("Your previous tries: " + Arrays.toString(Arrays.copyOf(guessArray, j)));
                     break;
+                }
+
+                if (customerInput < min || customerInput > max){
+                    adviceToPlayer(guessArray, j, min, max);
+                    continue;
                 }
 
                 if (customerInput < number){
