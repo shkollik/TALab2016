@@ -15,8 +15,10 @@ public class IndexOfNymbeInArrayTest {
     int [] arr3 = {4};
     int number = 4;
 
+    int [] resEmptyArray = {};
     int [] resOneElement = {0};
     int [] resBigArray = {3};
+   
 
     static IndexOfNymbeInArray a;
 
@@ -30,23 +32,23 @@ public class IndexOfNymbeInArrayTest {
     public void testEmptyArray() throws Exception {
         int [] res  = a.getIndexes(arr1, number);
 
-        Assert.assertEquals(res, resOneElement);
+        Assert.assertArrayEquals(res, resEmptyArray);
 
     }
 
     @Test
     public void testBigArray() throws Exception {
-        int [] res = a.getIndexes(arr1, number);
+        int [] res = a.getIndexes(arr2, number);
 
-        Assert.assertEquals(res, resBigArray);
+        Assert.assertArrayEquals(res, resBigArray);
 
     }
 
     @Test
     public void testArrayOfOneElement() throws Exception {
-        int [] res = a.getIndexes(arr1, number);
+        int [] res = a.getIndexes(arr3, number);
 
-        Assert.assertEquals(res, arr3);
+        Assert.assertArrayEquals(res, resOneElement);
 
     }
 

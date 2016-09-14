@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Created by Vladyslav_Shkola on 9/13/2016.
  */
 public class LessMore {
-    private static void rand(int min, int max) {
+    public void rand(int min, int max) {
         Random dice = new Random();
         int number = dice.nextInt(max); // target number
         System.out.println(number); // Just for me
