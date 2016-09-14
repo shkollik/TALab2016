@@ -5,19 +5,41 @@ import java.util.Arrays;
 /**
  * Created by Vladyslav_Shkola on 9/14/2016.
  */
-//public class IndexOfNymbeInArray {
-//    public int [] getIndexes(int [] array, int number){
-//        int [] result = new int [array.length];
-//        int j = 0;
-//        for(int i=0; i<array.length; i++){
-//            if (array[i]==number){
-//                result[j++] = i;
-//            }
-//
-//
-//        }
-//        result= Arrays.copyOf(result, j);
-//
-//        return result;
-//    }
-//}
+public class IndexOfNymbeInArray {
+    public int [] getIndexes(int [] array, int number)throws Exception{
+        boolean isAnyMatches= checkIfAtLeastOneMatch(array, number);
+        if (isAnyMatches==false){
+            int [] emptyArray = {};
+            return emptyArray;
+        }
+
+        else{
+            int [] result = new int [array.length];
+            int j = 0;
+            for(int i=0; i<array.length; i++){
+                if (array[i]==number){
+                    result[j++] = i;
+                }
+
+
+            }
+            result= Arrays.copyOf(result, j);
+
+            return result;
+
+        }
+
+    }
+
+    private boolean checkIfAtLeastOneMatch(int[] array, int number) {
+        boolean isMatched = false;
+        for (int k = 0; k < array.length; k++){
+            if (array[k] == number){
+                isMatched = true;
+                break;
+            }
+        }
+
+        return isMatched;
+    }
+}

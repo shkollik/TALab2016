@@ -18,7 +18,7 @@ public class IndexOfNymbeInArrayTest {
     int [] resEmptyArray = {};
     int [] resOneElement = {0};
     int [] resBigArray = {3};
-   
+
 
     static IndexOfNymbeInArray a;
 
