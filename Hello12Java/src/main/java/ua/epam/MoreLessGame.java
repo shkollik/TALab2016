@@ -14,7 +14,7 @@ public class MoreLessGame {
 
         int[] guessArray = new int[max];
         int numberOfAttempts = 0;
-        System.out.println("Pick targetNumber from 0 to 100");
+        System.out.println("Pick number from 0 to 100 (do not include boundary values of that range) ");
 
         for (int counter = 0; counter < guessArray.length; counter++) {
             Scanner sc = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class MoreLessGame {
 
             if (customerInput == targetNumber) {
                 System.out.println("You won ! Congrats!!!");
-                System.out.println("All you tries: " + Arrays.toString(Arrays.copyOf(guessArray, numberOfAttempts)));
+                System.out.println("All your tries: " + Arrays.toString(Arrays.copyOf(guessArray, numberOfAttempts)));
                 break;
             }
 
