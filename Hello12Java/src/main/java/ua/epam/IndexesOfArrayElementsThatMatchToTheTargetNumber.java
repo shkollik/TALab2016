@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by Vladyslav_Shkola on 9/14/2016.
  */
-public class IndexesOfNymbersInArray {
+public class IndexesOfArrayElementsThatMatchToTheTargetNumber {
     public int [] getIndexes(int [] array, int number) throws Exception{
         if (!checkIfAtLeastOneMatch(array, number)){
             int [] emptyArray = {};

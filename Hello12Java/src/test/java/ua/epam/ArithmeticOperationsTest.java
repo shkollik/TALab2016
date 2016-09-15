@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 /**
  * Created by Vladyslav_Shkola on 9/13/2016.
  */
-public class ArithmeticOperationTest {
+public class ArithmeticOperationsTest {
     static ArithmeticOperations a;
 
     @BeforeClass
