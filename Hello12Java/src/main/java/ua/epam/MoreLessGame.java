@@ -74,7 +74,7 @@ public class MoreLessGame {
         return duplicatesArePresented;
     }
 
-    public int random(int min, int max){
+    private int random(int min, int max){
         int res = (min + 1) + (int)(Math.random() * (max - min -1));
         return  res;
     }
