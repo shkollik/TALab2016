@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class MoreLessGame {
     public void rand(int min, int max) {
         int targetNumber = random(min, max);
-        //System.out.println("The target targetNumber is "+ targetNumber + " But dont look at it. Try to guess  without help ");
+        //System.out.println("The targetNumber is "+ targetNumber + " But dont look at it. Try to guess  without help ");
 
         int[] guessArray = new int[max];
         int numberOfAttempts = 0;
