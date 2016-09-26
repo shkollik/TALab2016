@@ -19,20 +19,20 @@ public class Controller {
         regForm = new InputRegForm();
         model = new GeneralModel();
 
-        regForm.setSurname(checkRegex(sc, View.SURNAME, RegularExpressions.REGEX_NAME));
-        regForm.setName(checkRegex(sc, View.FIRSTNAME, RegularExpressions.REGEX_NAME));
-        regForm.setDaddyName(checkRegex(sc, View.DADDYNAME, RegularExpressions.REGEX_NAME));
-        regForm.setNickName(checkRegex(sc, View.NICKNAME, RegularExpressions.REGEX_NICKNAME));
-        regForm.setComments(checkRegex(sc, View.COMMENTS, RegularExpressions.REGEX_COMMENTS));
-        regForm.setGroup(checkRegex(sc, View.GROUP, RegularExpressions.REGEX_GROUP));
-        regForm.setPhoneNumberHome(checkRegex(sc, View.HOMEPHONE, RegularExpressions.REGEX_HOMEPHONE));
-        regForm.setPhoneNumberMobile(checkRegex(sc, View.MOBILE, RegularExpressions.REGEX_MOBILEPHONE));
+        regForm.setSurname(checkRegex(sc, view.SURNAME, RegularExpressions.REGEX_NAME));
+        regForm.setName(checkRegex(sc, view.FIRSTNAME, RegularExpressions.REGEX_NAME));
+        regForm.setDaddyName(checkRegex(sc, view.DADDYNAME, RegularExpressions.REGEX_NAME));
+        regForm.setNickName(checkRegex(sc, view.NICKNAME, RegularExpressions.REGEX_NICKNAME));
+        regForm.setComments(checkRegex(sc, view.COMMENTS, RegularExpressions.REGEX_COMMENTS));
+        regForm.setGroup(checkRegex(sc, view.GROUP, RegularExpressions.REGEX_GROUP));
+        regForm.setPhoneNumberHome(checkRegex(sc, view.HOMEPHONE, RegularExpressions.REGEX_HOMEPHONE));
+        regForm.setPhoneNumberMobile(checkRegex(sc, view.MOBILE, RegularExpressions.REGEX_MOBILEPHONE));
         regForm.setPhoneNumberSecondMobile(checkRegex(sc, view.SECONDMOBILE, RegularExpressions.REGEX_MOBILEPHONE));
-        regForm.setEmail(checkRegex(sc, View.EMAIL, RegularExpressions.REGEX_EMAIL));
-        regForm.setSkype(checkRegex(sc, View.SKYPE, RegularExpressions.REGEX_SKYPE));
-        regForm.setAddress(new Address(checkRegex(sc, View.ADDRESS, RegularExpressions.REGEX_ADDRESS)));
-        regForm.setFirstInsertDate(checkRegex(sc, View.FIRSTINPUTDATE, RegularExpressions.REGEX_DATE));
-        regForm.setLastChangeDate(checkRegex(sc, View.LASTCHANGESDATE, RegularExpressions.REGEX_DATE));
+        regForm.setEmail(checkRegex(sc, view.EMAIL, RegularExpressions.REGEX_EMAIL));
+        regForm.setSkype(checkRegex(sc, view.SKYPE, RegularExpressions.REGEX_SKYPE));
+        regForm.setAddress(new Address(checkRegex(sc, view.ADDRESS, RegularExpressions.REGEX_ADDRESS)));
+        regForm.setFirstInsertDate(checkRegex(sc, view.FIRSTINPUTDATE, RegularExpressions.REGEX_DATE));
+        regForm.setLastChangeDate(checkRegex(sc, view.LASTCHANGESDATE, RegularExpressions.REGEX_DATE));
 
         view.printMessage(model.createRecord(regForm).toString());
 
@@ -46,7 +46,7 @@ public class Controller {
                 return temp;
             }
             else{
-                view.printMessage(View.ERROR);
+                view.printMessage(view.ERROR);
                 temp = inputValueWithScanner(sc, message);
             }
         }
@@ -56,7 +56,7 @@ public class Controller {
     public String inputValueWithScanner(Scanner sc, String message) {
         view.printMessage(message);
         while (!sc.hasNextLine()) {
-            view.printMessage(View.ERROR);
+            view.printMessage(view.ERROR);
             sc.nextLine();
         }
         return sc.nextLine();

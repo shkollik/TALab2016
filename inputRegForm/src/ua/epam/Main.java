@@ -1,7 +1,6 @@
 package ua.epam;
 
 import ua.epam.controller.Controller;
-import ua.epam.model.Record;
 
 public class Main {
 
