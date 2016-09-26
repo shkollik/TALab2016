@@ -38,11 +38,12 @@ public class Main {
 
         // Get info about methods(names, return type, arguments) to pick one for invoke
         Method[] methodz = childClass.getDeclaredMethods();
+        Class[] paramTypes = {};
         for (Method method : methodz) {
             System.out.println("Name: " + method.getName());
             System.out.println("Return type: " + method.getReturnType().getName());
 
-            Class[] paramTypes = method.getParameterTypes();
+            paramTypes = method.getParameterTypes();
             System.out.print("ParamTypes: ");
             for (Class paramType : paramTypes) {
                 System.out.print(" " + paramType.getName());
@@ -51,7 +52,7 @@ public class Main {
         }
 
         //Invoke method that was marked by annotation
-        Class[] paramTypes = new Class[] { String.class, String.class, String.class };
+        //Class[] paramTypes = new Class[] { String.class, String.class, String.class };
         Method method = childClass.getMethod("calculteNumberOfDaysTillBirthDay", paramTypes);
         Object obj = childClass.newInstance();
         Object[] arguments = new Object[] { new String("12.04.2015"), new String("20.04.2015"), new String("dd.mm.yyyy") };
