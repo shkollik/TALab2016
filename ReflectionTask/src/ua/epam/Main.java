@@ -3,7 +3,6 @@ package ua.epam;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
 import java.text.ParseException;
 
 
@@ -53,8 +52,9 @@ public class Main {
 
         //Invoke method that was marked by annotation
         //Class[] paramTypes = new Class[] { String.class, String.class, String.class }; this way or just use from loop above
+
         for(Method method : childClass.getMethods()){
-            if(method.isAnnotationPresent(Annotation_for_method_invoke.class)){
+            if(method.isAnnotationPresent(MarkForRevoke.class)){
                 Method method1 = childClass.getMethod("calculteNumberOfDaysTillBirthDay", paramTypes);
                 Object obj = childClass.newInstance();
                 Object[] arguments = new Object[] { new String("12.04.2015"), new String("20.04.2015"), new String("dd.mm.yyyy") };

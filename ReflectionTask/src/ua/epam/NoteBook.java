@@ -22,7 +22,7 @@ public class NoteBook extends Date {
         this.dateOfBirth = dateOfBirth;
     }
 
-    @Annotation_for_method_invoke(description = "for invoke")
+    @MarkForRevoke(description = "for invoke")
     public int calculteNumberOfDaysTillBirthDay(String currentDate, String birthdayDate, String format) throws ParseException {
         SimpleDateFormat type = new SimpleDateFormat(format);
         Date dateNow = type.parse(currentDate);
