@@ -12,5 +12,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 
 public @interface MarkForRevoke {
-    String description() default "this method could be invoke";
+    String description() default "this method could be invoked";
 }
