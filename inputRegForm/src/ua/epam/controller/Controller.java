@@ -2,14 +2,15 @@ package ua.epam.controller;
 
 import ua.epam.View;
 import ua.epam.model.Address;
-import ua.epam.model.GeneralModel;
+import ua.epam.model.Record;
+
 import java.util.Scanner;
 
 /**
  * Created by Shkolik on 22.09.2016.
  */
 public class Controller {
-    GeneralModel model;
+    Record record;
     View view;
 
     InputRegForm regForm;
@@ -17,8 +18,6 @@ public class Controller {
     public void proccessUser() {
         Scanner sc = new Scanner(System.in);
         regForm = new InputRegForm();
-        model = new GeneralModel();
-
         regForm.setSurname(checkRegex(sc, view.SURNAME, RegularExpressions.REGEX_NAME));
         regForm.setName(checkRegex(sc, view.FIRSTNAME, RegularExpressions.REGEX_NAME));
         regForm.setDaddyName(checkRegex(sc, view.DADDYNAME, RegularExpressions.REGEX_NAME));
@@ -34,7 +33,12 @@ public class Controller {
         regForm.setFirstInsertDate(checkRegex(sc, view.FIRSTINPUTDATE, RegularExpressions.REGEX_DATE));
         regForm.setLastChangeDate(checkRegex(sc, view.LASTCHANGESDATE, RegularExpressions.REGEX_DATE));
 
-        view.printMessage(model.createRecord(regForm).toString());
+        record = new Record(regForm.getSurname(), regForm.getName(),
+                regForm.getDaddyName(),regForm.getNickName(), regForm.getComments(), regForm.getGroup(),
+                regForm.getPhoneNumberHome(), regForm.getPhoneNumberMobile(), regForm.getPhoneNumberSecondMobile(),
+                regForm.getSkype(), regForm.getEmail(), regForm.getAddress(), regForm.getFirstInsertDate(), regForm.getLastChangeDate());
+
+        System.out.println(record);
 
 
     }
