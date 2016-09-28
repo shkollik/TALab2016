@@ -1,4 +1,5 @@
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -22,6 +23,17 @@ public class AddTest {
     public int second;
     @Parameterized.Parameter(value = 2)
     public int res;
+
+    //instead of using @Paramether(value=0,1,2) just create constructor of TestClass
+//    int first;
+//    int second;
+//    int res;
+//
+//    public AddTest(int first, int second, int res) {
+//        this.first = first;
+//        this.second = second;
+//        this.res = res;
+//    }
 
     @Test
     public void testAdd(){

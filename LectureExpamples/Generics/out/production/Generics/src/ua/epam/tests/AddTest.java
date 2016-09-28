@@ -1,4 +1,5 @@
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -16,12 +17,29 @@ public class AddTest {
         return Arrays.asList(new Object[][] {{2,2,4}, {2,3,5}, {Integer.MIN_VALUE, Integer.MAX_VALUE, -1}});
     }
 
-    @Parameterized.Parameter(value = 0)
-    public int first;
-    @Parameterized.Parameter(value = 1)
-    public int second;
-    @Parameterized.Parameter(value = 2)
-    public int res;
+//    @Parameterized.Parameter(value = 0)
+//    public int first;
+//    @Parameterized.Parameter(value = 1)
+//    public int second;
+//    @Parameterized.Parameter(value = 2)
+//    public int res;
+    int first;
+    int second;
+    int res;
+
+    public AddTest(int first, int second, int res) {
+        this.first = first;
+        this.second = second;
+        this.res = res;
+    }
+
+//    AddTest addTest;
+//
+//    @BeforeClass
+//    public void initialize(){
+//        addTest = new AddTest();
+//    }
+
 
     @Test
     public void testAdd(){
