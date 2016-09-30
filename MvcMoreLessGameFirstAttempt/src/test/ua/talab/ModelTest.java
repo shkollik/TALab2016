@@ -3,7 +3,7 @@ package ua.talab;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import ua.epam.Model;
+import ua.talab.Model;
 
 import static org.junit.Assert.*;
 
