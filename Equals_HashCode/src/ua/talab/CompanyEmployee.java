@@ -3,7 +3,7 @@ package ua.talab;
 /**
  * Created by Shkolik on 19.09.2016.
  */
-public class CompanyEmployeeEmployee {
+public class CompanyEmployee {
     private int age;
     private String name;
     private String position;
