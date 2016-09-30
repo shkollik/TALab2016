@@ -19,7 +19,7 @@ public class CompanyEmployee {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        EpamEmployee that = (EpamEmployee) o;
+        CompanyEmployee that = (CompanyEmployee) o;
 
         if (age != that.age) return false;
         if (!name.equals(that.name)) return false;
