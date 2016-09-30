@@ -1,6 +1,6 @@
 package ua.talab;
 
-import ua.epam.controller.Controller;
+import ua.talab.controller.Controller;
 
 public class Main {
 
