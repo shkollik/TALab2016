@@ -3,8 +3,8 @@ package ua.talab;
 public class Main {
 
     public static void main(String[] args) {
-	    EpamEmployee emp1 = new EpamEmployee(24, "Vladyslav", "Student");
-        EpamEmployee emp2 = new EpamEmployee(24, "Vladyslav", "Student");
+        CompanyEmployee emp1 = new CompanyEmployee(24, "Vladyslav", "Student");
+        CompanyEmployee emp2 = new CompanyEmployee(24, "Vladyslav", "Student");
 
         RD_Employee rdEmp1 = new RD_Employee(24, "Vladyslav", "Student", RD_Employee.Specialization.AT);
         RD_Employee rdEmp2 = new RD_Employee(24, "Vladyslav", "Student", RD_Employee.Specialization.AT);
