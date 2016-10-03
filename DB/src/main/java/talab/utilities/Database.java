@@ -16,9 +16,19 @@ public class Database {
     List<Transactions> transactionsList = new ArrayList<>();
     List<PaymentSystem> paymentSystemList = new ArrayList<>();
     List<CardStatus> cardStatusList = new ArrayList<>();
+    Connection connection;
+
+    public void getConnetion() throws SQLException {
+        connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?useSSL=false", "root", "root");
+
+    }
+
+    public void closeConnetion() throws SQLException {
+        connection.close();
+
+    }
 
     public void getTableBalance() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?useSSL=false", "root", "root");
         try (PreparedStatement query = connection.prepareStatement("SELECT * FROM balance")){
             ResultSet rs = query.executeQuery();
             while(rs.next()){
@@ -30,7 +40,6 @@ public class Database {
     }
 
     public void getTableClients() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?useSSL=false", "root", "root");
         try (PreparedStatement query = connection.prepareStatement("SELECT * FROM clients")){
             ResultSet rs = query.executeQuery();
             Clients clients;
@@ -44,7 +53,6 @@ public class Database {
     }
 
     public void getTableCardAccounts() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?useSSL=false", "root", "root");
         try (PreparedStatement query = connection.prepareStatement("SELECT * FROM card_accounts")){
             ResultSet rs = query.executeQuery();
             CardAccounts cardAccounts;
@@ -58,7 +66,6 @@ public class Database {
     }
 
     public void getTableTransactions() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?useSSL=false", "root", "root");
         try (PreparedStatement query = connection.prepareStatement("SELECT * FROM transactions")){
             ResultSet rs = query.executeQuery();
             Transactions transactions;
@@ -71,7 +78,6 @@ public class Database {
     }
 
     public void getTablePaymentSystem() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?useSSL=false", "root", "root");
         try (PreparedStatement query = connection.prepareStatement("SELECT * FROM payment_system")){
             ResultSet rs = query.executeQuery();
             PaymentSystem payment_system;
@@ -84,7 +90,7 @@ public class Database {
     }
 
     public void getTableCardStatus() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?useSSL=false", "root", "root");
+
         try (PreparedStatement query = connection.prepareStatement("SELECT * FROM card_status")){
             ResultSet rs = query.executeQuery();
             CardStatus cardStatus;
