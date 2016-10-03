@@ -18,6 +18,10 @@ public class Balance {
         this.currentDate = currentDate;
     }
 
+
+    public Balance() {
+    }
+
     @Override
     public String toString() {
         return "Balance{" +

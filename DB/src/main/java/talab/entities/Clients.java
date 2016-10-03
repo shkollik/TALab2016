@@ -20,7 +20,7 @@ public class Clients {
 
     @Override
     public String toString() {
-        return "Clients{" +
+        return "ClientsDao{" +
                 "id=" + id +
                 ", surname='" + surname + '\'' +
                 ", name='" + name + '\'' +
