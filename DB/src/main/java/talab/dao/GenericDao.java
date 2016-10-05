@@ -10,7 +10,7 @@ import java.util.List;
 public interface GenericDao<T> {
     T find(int id) throws IOException, SQLException;
     List<T> findAll() throws IOException, SQLException;
-    void update(T entity) throws IOException, SQLException;
+    void update(T entity, int id, int amount) throws IOException, SQLException;
     void delete(int id) throws IOException, SQLException;
     void insert(T entity) throws IOException, SQLException;
 

@@ -17,11 +17,10 @@ public class RunnerDao {
 
         System.out.println(dao.findAll());
         System.out.println(dao.findByAmount(600));
-
-        dao.delete(1);
+        dao.delete(4);
         dao.insert(new Balance());
 
-        dao.update(new Balance());
+        dao.update(new Balance(), 2, 500);
         System.out.println(dao.find(2).toString());
 
 

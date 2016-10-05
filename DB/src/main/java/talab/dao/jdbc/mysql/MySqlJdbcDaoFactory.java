@@ -12,7 +12,7 @@ import java.util.Properties;
  * Created by Vladyslav_Shkola on 10/3/2016.
  */
 public class MySqlJdbcDaoFactory extends DaoFactory{
-    private static final String DB_CONFIG_FILE_NAME="db.properties";
+    private static final String DB_CONFIG_FILE_NAME="/db.properties";
     private static final String DB_USER="db.user";
     private static final String DB_PASS="db.pass";
     private static final String DB_URL="db.url";

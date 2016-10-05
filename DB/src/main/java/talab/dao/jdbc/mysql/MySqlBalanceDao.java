@@ -14,8 +14,8 @@ import java.util.List;
 public class MySqlBalanceDao implements BalanceDao{
     public static final String SELECT_BY_AMOUNT = "SELECT * FROM balance WHERE current_balance >=?";
     public static final String SELECT_ALL = "SELECT * FROM balance";
-    public static final String INSERT = "INSERT INTO balance VALUES (1, 1, 500, '2016-08-24 23:47:18')";
-    public static final String UPDATE = "UPDATE balance SET current_balance = 700 where card_accounts_id = 5";
+    public static final String INSERT = "INSERT INTO balance  VALUES  (4, 4, 500, '2016-08-24 23:47:18')";
+    public static final String UPDATE = "UPDATE balance SET current_balance = ? where card_accounts_id =?";
     public static final String DELETE = "DELETE from balance WHERE id =?";
     public static final String SELECT_BY_ID = "SELECT * from balance WHERE id =?";
 
@@ -58,11 +58,13 @@ public class MySqlBalanceDao implements BalanceDao{
     }
 
     @Override
-    public void update(Balance entity) throws IOException, SQLException {
+    public void update(Balance entity, int id, int amount) throws IOException, SQLException {
         Connection connection = MySqlJdbcDaoFactory.getConnection();
 
-        try (Statement query = connection.createStatement()){
-            int rs = query.executeUpdate(UPDATE);
+        try (PreparedStatement query = connection.prepareStatement(UPDATE)){
+            query.setInt(1, id);
+            query.setInt(2, amount);
+            int rs = query.executeUpdate();
 
         }catch (Exception ex){
             throw new RuntimeException(ex);
