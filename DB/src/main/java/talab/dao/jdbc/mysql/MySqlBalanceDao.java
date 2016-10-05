@@ -27,12 +27,9 @@ public class MySqlBalanceDao implements BalanceDao{
 
         try (PreparedStatement query = connection.prepareStatement(SELECT_BY_ID)){
             query.setInt(1, id);
-
             ResultSet rs = query.executeQuery();
-            while(rs.next()){
-                balance = getBalanceFromResultSet(rs);
-            }
-
+            rs.next();
+            balance = getBalanceFromResultSet(rs);
         }catch (Exception ex){
             throw new RuntimeException(ex);
         }
