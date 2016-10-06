@@ -61,7 +61,7 @@ public class MySqlBalanceDao implements BalanceDao{
         try (PreparedStatement query = connection.prepareStatement(UPDATE)){
             query.setInt(1, id);
             query.setInt(2, amount);
-            int rs = query.executeUpdate();
+            query.executeUpdate();
 
         }catch (Exception ex){
             throw new RuntimeException(ex);
@@ -76,7 +76,7 @@ public class MySqlBalanceDao implements BalanceDao{
 
         try (PreparedStatement query = connection.prepareStatement(DELETE)){
             query.setInt(1, id);
-            int rs = query.executeUpdate();
+            query.executeUpdate();
 
         }catch (Exception ex){
             throw new RuntimeException(ex);
@@ -91,7 +91,7 @@ public class MySqlBalanceDao implements BalanceDao{
         Connection connection = MySqlJdbcDaoFactory.getConnection();
 
         try (Statement query = connection.createStatement()){
-            int rs = query.executeUpdate(INSERT);
+            query.executeUpdate(INSERT);
 
         }catch (Exception ex){
             throw new RuntimeException(ex);

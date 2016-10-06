@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<clients>
+    <list>
+        <item id="1">
+            <surname>Smith</surname>
+            <name>John</name>
+            <identification_code>2239403920</identification_code>
+            <phone_number>0973802183</phone_number>
+        </item>
+        <item id="2">
+            <surname>Richardson</surname>
+            <name>Michael</name>
+            <identification_code>2233043920</identification_code>
+            <phone_number>0500392943</phone_number>
+        </item>
+        <item id="3">
+            <surname>Jackson</surname>
+            <name>Robert</name>
+            <identification_code>2232223920</identification_code>
+            <phone_number>0939993021</phone_number>
+        </item>
+    </list>
+</clients>

@@ -18,6 +18,7 @@ public class Runner {
         json.put("manufactureId", g.getManufactureId());
         json.put("price", g.getPrice());
         System.out.println(json.toJSONString());
+
         String jString = json.toJSONString();
 
         ObjectMapper mapper = new ObjectMapper();
