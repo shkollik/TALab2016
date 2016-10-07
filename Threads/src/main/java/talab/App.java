@@ -1,6 +1,10 @@
 package talab;
 
+import java.io.InputStream;
 import java.util.Scanner;
+
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 /**
  * Hello world!
@@ -8,16 +12,14 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        final App app = new App();
 
         for (int i = 0; i < 10; i++) {
             final int value = scanner.nextInt();
 
-
             new Thread(new Runnable() {
                 public void run() {
                     try {
-                        double fact = app.factorial(value);
+                        double fact = factorial(value);
                         synchronized (System.out){
                             System.out.print("Factorial of number " + value);
                             System.out.println("result is " + fact);
@@ -37,7 +39,7 @@ public class App {
         }
     }
 
-    public  double   factorial(int number) throws InterruptedException {
+    public static double   factorial(int number) throws InterruptedException {
         double fact = 1.0;
         for (int i = 2; i <= number; i++) {
             fact *= i;
