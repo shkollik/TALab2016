@@ -71,4 +71,29 @@ public class Goods {
     public void setManufactureId(int manufactureId) {
         this.manufactureId = manufactureId;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Goods goods = (Goods) o;
+
+        if (id != goods.id) return false;
+        if (price != goods.price) return false;
+        if (manufactureId != goods.manufactureId) return false;
+        if (!name.equals(goods.name)) return false;
+        return description.equals(goods.description);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = id;
+        result = 31 * result + name.hashCode();
+        result = 31 * result + description.hashCode();
+        result = 31 * result + price;
+        result = 31 * result + manufactureId;
+        return result;
+    }
 }
