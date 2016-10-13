@@ -18,7 +18,7 @@ public class OldController {
 
     public static void main(String[] args) throws ClassNotFoundException, IOException, SQLException {
         // TODO Auto-generated method stub
-        new OldController().doServiceBalanceBonus("450","10");
+        new OldController().doServiceBalanceBonus("500","10");
 
     }
 
@@ -28,7 +28,7 @@ public class OldController {
         if ( bonusVal<0 || bonusVal>=100 )
             throw new IllegalArgumentException();
         List<Balance> balance = service.getBalanceWithBonus(amountVal, bonusVal);
-        //System.out.println(balance);
+        //System.out.println(goods);
         return balance;
 
     }

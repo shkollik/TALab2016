@@ -13,10 +13,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import talab.entities.Balance;
 
+import talab.controller.OldController;
+
+
 /**
- * Servlet implementation class BalanceBonusController
+ * Servlet implementation class GoodsDiscountController
  */
-@WebServlet("/BalanceBonusController")
+@WebServlet("/B")
 public class BalanceBonusController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -33,14 +36,11 @@ public class BalanceBonusController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try(PrintWriter out = response.getWriter()){
-			String amount = request.getParameter("amount");
-			String bonus = request.getParameter("bonus");
-			List<Balance> result = new OldController().doServiceBalanceBonus(amount, bonus);
+			String amountVal = request.getParameter("amount");
+			String bonusVal = request.getParameter("bonus");
+			List<Balance> result = new OldController().doServiceBalanceBonus(amountVal, bonusVal);
 			out.print(result);
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

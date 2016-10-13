@@ -8,6 +8,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
+import com.mysql.jdbc.Driver;
+
 /**
  * Created by Vladyslav_Shkola on 10/3/2016.
  */
@@ -24,6 +26,7 @@ public class MySqlJdbcDaoFactory extends DaoFactory{
                 InputStream in = MySqlJdbcDaoFactory.class.getResourceAsStream(DB_CONFIG_FILE_NAME);
                 Properties props = new Properties();
                 props.load(in);
+                new Driver();
 
                 connection = DriverManager.getConnection(props.getProperty(DB_URL),
                         props.getProperty(DB_USER),

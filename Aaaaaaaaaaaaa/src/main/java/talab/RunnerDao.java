@@ -15,13 +15,13 @@ public class RunnerDao {
         DaoFactory factory = DaoFactory.getInstance();
         BalanceDao dao = factory.createBalanceDao();
 
-        System.out.println(dao.findAll());
-        System.out.println(dao.findByAmount(600));
-        dao.delete(4);
-        dao.insert(new Balance());
+//        System.out.println(dao.findAll());
+//        System.out.println(dao.findByAmount(600));
+//        dao.delete(4);
+//        dao.insert(new Balance());
 
         dao.update(new Balance(), 6, 1000);
-        System.out.println(dao.find(2).toString());
+//        System.out.println(dao.find(2).toString());
 
 
 
