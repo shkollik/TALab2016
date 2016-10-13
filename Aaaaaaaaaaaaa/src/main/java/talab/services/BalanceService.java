@@ -39,4 +39,20 @@ public class BalanceService {
         }
         return list;
     }
+    
+    public List<Balance> getBalanceByAmount(int minAmount) throws IOException, SQLException {
+        List<Balance> list = dao.findByAmount(minAmount);
+        for(Balance b : list ){
+            b.setCurrentBalance(b.getCurrentBalance());
+        }
+        return list;
+    }
+    
+    public List<Balance> getBalance() throws IOException, SQLException {
+        List<Balance> list = dao.findAll();
+        for(Balance b : list ){
+            b.setCurrentBalance(b.getCurrentBalance());
+        }
+        return list;
+    }
 }

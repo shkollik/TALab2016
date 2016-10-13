@@ -3,7 +3,6 @@ package talab.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
-import java.util.Iterator;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -14,22 +13,17 @@ import javax.servlet.http.HttpServletResponse;
 
 import talab.entities.Balance;
 
-import talab.controller.OldController;
-
-
 /**
- * Servlet implementation class GoodsDiscountController
+ * Servlet implementation class BalanceByAmountController
  */
-@WebServlet("/BalanceBonusController")
-public class BalanceBonusController extends HttpServlet {
+@WebServlet("/BalanceByAmountController")
+public class BalanceByAmountController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
-	//private PrintWriter out;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public BalanceBonusController() {
+    public BalanceByAmountController() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -38,12 +32,12 @@ public class BalanceBonusController extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
 		try(PrintWriter out = response.getWriter()){
-			String amountVal = request.getParameter("amount");
-			String bonusVal = request.getParameter("bonus");
+			String amountVal = request.getParameter("amount");			
 			OldController oldController = new OldController();
 			oldController.buildTableHeader(out);
-			List<Balance> balance = oldController.doServiceBalanceBonus(amountVal, bonusVal);			
+			List<Balance> balance = oldController.doServiceBalanceByAmount(amountVal);			
             oldController.buildTableBody(out, balance);
             oldController.buildTableFooter(out);         
            
@@ -52,7 +46,6 @@ public class BalanceBonusController extends HttpServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	    
 	}
 
 	/**
@@ -60,6 +53,7 @@ public class BalanceBonusController extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		doGet(request, response);
 	}
 
 }

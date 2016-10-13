@@ -4,9 +4,17 @@
 Let's grant out best clients together!!!
 <p></p>
 
-<form action ="./TableBalance">
+<form action ="./BalanceController">
 <input type="submit" value="Show table Balance firstly"> 
 </form>
+
+<p>
+So, now we gonna see clients with balance more then input
+<form action ="./BalanceByAmountController">
+<input type="text" name="amount" value="required minimum"/>
+<input type="submit" value="Show only required records"> 
+</form>
+</p>
 
 <form action ="./BalanceBonusController">
 <input type="text" name="amount" value="required minimum"/>
