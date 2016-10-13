@@ -39,7 +39,7 @@
 <p><b>So, now we gonna see clients where balance at least equals to the required value</b></p>
 <p></p>
 <form action ="./BalanceByAmountController">
-<input type="text" name="amount" value="required minimum"/>
+<input type="text" name="amount" value="required minimum" onfocus="if (this.value == 'required minimum') {this.value = '';}" onblur="if (this.value == '') {this.value = 'required minimum';}">
 <input type="submit" value="Show only required records"> 
 </form>
 </div>
@@ -49,8 +49,8 @@
 <p></p>
 <p><b>And finally - it's time to grant $$$</b></p>
 <form action ="./BalanceBonusController">
-<input type="text" name="amount" value="required minimum"/>
-<input type="text" name="bonus" value="granted bonus"/>
+<input type="text" name="amount" value="required minimum" onfocus="if (this.value == 'required minimum') {this.value = '';}" onblur="if (this.value == '') {this.value = 'required minimum';}">
+<input type="text" name="bonus" value="granted bonus" onfocus="if (this.value == 'granted bonus') {this.value = '';}" onblur="if (this.value == '') {this.value = 'granted bonus';}">
 <input type="submit" value = "Bonus for clients  where balance at least equals to the required value"> 
 </form>
 </div>
