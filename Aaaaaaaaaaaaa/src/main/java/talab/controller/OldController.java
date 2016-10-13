@@ -25,12 +25,14 @@ public class OldController {
 //    }
 
     public List<Balance> doServiceBalanceBonus(String amount , String bonus) throws IOException, SQLException {
-        int amountVal = Integer.parseInt(amount);
-        int bonusVal = Integer.parseInt(bonus);
-        if ( bonusVal<0 || bonusVal>=100 )
-            throw new IllegalArgumentException();
-        List<Balance> balance = service.getBalanceWithBonus(amountVal, bonusVal);       
+    	int amountVal = Integer.parseInt(amount);
+    	int bonusVal = Integer.parseInt(bonus);
+        if (  amountVal < 0 || bonusVal<0 || bonusVal>=100 ){
+        	throw new IllegalArgumentException();
+        }               
+        List<Balance> balance = service.getBalanceWithBonus(amountVal, bonusVal);               
         return balance;
+        
     }
     
     public List<Balance> doServiceBalanceByAmount(String amount) throws IOException, SQLException {
