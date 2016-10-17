@@ -33,7 +33,7 @@ public class Database {
             ResultSet rs = query.executeQuery();
             while(rs.next()){
                 Balance balance = new Balance(rs.getInt("id"), rs.getInt("card_accounts_id"),
-                        rs.getInt("current_balance"), rs.getDate("current_date"));
+                        rs.getInt("current_balance"), rs.getString("current_date"));
                 balanceList.add(balance);
             }
         }

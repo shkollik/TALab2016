@@ -51,6 +51,7 @@
 <form action ="./BalanceBonusController">
 <input type="text" name="amount" value="required minimum" onfocus="if (this.value == 'required minimum') {this.value = '';}" onblur="if (this.value == '') {this.value = 'required minimum';}">
 <input type="text" name="bonus" value="granted bonus" onfocus="if (this.value == 'granted bonus') {this.value = '';}" onblur="if (this.value == '') {this.value = 'granted bonus';}">
+<p></p>
 <input type="submit" value = "Bonus for clients  where balance at least equals to the required value"> 
 </form>
 </div>

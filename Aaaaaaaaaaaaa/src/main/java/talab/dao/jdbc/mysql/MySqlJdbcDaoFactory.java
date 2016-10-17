@@ -8,7 +8,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-import com.mysql.jdbc.Driver;
+import com.mysql.cj.jdbc.Driver;
 
 /**
  * Created by Vladyslav_Shkola on 10/3/2016.

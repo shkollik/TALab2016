@@ -124,7 +124,7 @@ public class MySqlBalanceDao implements BalanceDao{
         balance.setId(rs.getInt("id"));
         balance.setCardAccounts(rs.getInt("card_accounts_id"));
         balance.setCurrentBalance(rs.getInt("current_balance"));
-        balance.setCurrentDate(rs.getDate("current_date"));
+        balance.setCurrentDate(rs.getString("current_date"));
         return balance;
     }
 }
