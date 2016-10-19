@@ -8,6 +8,6 @@ import org.openqa.selenium.WebDriver;
 public abstract class WebDriverCreator {
     protected WebDriver driver;
 
-    abstract WebDriver factoryMethod();
+    abstract WebDriver factoryMethod() throws Exception;
 
 }

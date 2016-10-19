@@ -3,12 +3,11 @@ package talab.singleton;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import talab.singleton.utils.SetDriver;
 
 import java.util.concurrent.TimeUnit;
 
-import static talab.singleton.utils.SetDriver.setChromeDriver;
-import static talab.singleton.utils.SetDriver.setFireFoxDriver;
+import static talab.singleton.utils.SetDriverPath.setChromeDriver;
+import static talab.singleton.utils.SetDriverPath.setFireFoxDriver;
 
 /**
  * Created by Vladyslav_Shkola on 10/18/2016.

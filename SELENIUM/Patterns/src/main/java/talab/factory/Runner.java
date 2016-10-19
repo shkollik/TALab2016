@@ -6,11 +6,9 @@ package talab.factory;
 public class Runner {
     private static String url = "http://github.com";
 
-    public static void main(String[] args) {
-        //WebDriverCreator creator = new FireFoxCreator();
+    public static void main(String[] args) throws Exception {
         WebDriverCreator creator = new ChromeCreator();
         creator.factoryMethod().get(url);
-
     }
 
 
