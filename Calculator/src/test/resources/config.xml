@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test" parallel="methods" thread-count="2" verbose="10">
+    <listeners>
+        <listener class-name="talab.listeners.Listener"/>
+    </listeners>
+    <test name="Test Arithmetic Operations">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="func"/>
+                <exclude name="trigonometry"/>
+                <exclude name="exception"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="talab.TestBasicOperations"></class>
+            <class name="talab.TestAdditionalOperations"></class>
+        </classes>
+    </test>
+
+</suite>
+

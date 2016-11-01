@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="10" name="Failed suite [Test]" parallel="methods">
+  <listeners>
+    <listener class-name="talab.listeners.Listener"/>
+  </listeners>
+  <test name="Test Arithmetic Operations(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="func"/>
+        <exclude name="trigonometry"/>
+        <exclude name="exception"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="talab.TestBasicOperations">
+        <methods>
+          <include name="testMultDouble" invocation-numbers="4"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- talab.TestBasicOperations -->
+      <class name="talab.TestAdditionalOperations">
+        <methods>
+          <include name="testPow" invocation-numbers="4"/>
+          <include name="setUp"/>
+          <include name="testIsNegativeTrue" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- talab.TestAdditionalOperations -->
+    </classes>
+  </test> <!-- Test Arithmetic Operations(failed) -->
+</suite> <!-- Failed suite [Test] -->

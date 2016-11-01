@@ -1,11 +1,10 @@
 package talab.utils;
 
+import java.lang.reflect.Method;
 import org.testng.annotations.DataProvider;
 
-import java.lang.reflect.Method;
-
 /**
- * Created by Vladyslav_Shkola on 10/31/2016.
+ * Created by Vladyslav_Shkola on 11/1/2016.
  */
 public class DataProviders {
     @DataProvider(name = "getDataFromExcelLong")

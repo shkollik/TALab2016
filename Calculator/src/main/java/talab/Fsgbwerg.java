@@ -12,5 +12,6 @@ public class Fsgbwerg {
         System.out.println(calculator.isNegative(0));
 
         System.out.println(calculator.sin(1));
+        System.out.println(calculator.ctg(45));
     }
 }
