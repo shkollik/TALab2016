@@ -5,28 +5,10 @@
       <![CDATA[Class - BaseTest, Method - setUp, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 1]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 15]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 15]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 1]]>
     </line>
     <line>
       <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 0]]>
@@ -38,7 +20,13 @@
       <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 23]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 1]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 1]]>
     </line>
     <line>
       <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
@@ -47,19 +35,34 @@
       <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 1]]>
     </line>
     <line>
       <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 5]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 2]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 57]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 1]]>
     </line>
     <line>
       <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
@@ -71,10 +74,7 @@
       <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 1]]>
     </line>
     <line>
       <![CDATA[Class - TestBasicOperations, Method - testDivDouble, Status - 1, Elapsed time: 0]]>
@@ -92,7 +92,19 @@
       <![CDATA[Class - TestBasicOperations, Method - testDivDouble, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
+      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
       <![CDATA[Class - TestBasicOperations, Method - testDivDouble, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 3]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 1]]>
     </line>
     <line>
       <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
@@ -107,25 +119,19 @@
       <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 2, Elapsed time: 1]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 14]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 2, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 5]]>
     </line>
     <line>
       <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
@@ -134,25 +140,25 @@
       <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 11]]>
     </line>
     <line>
       <![CDATA[Class - BaseTest, Method - setUp, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 1]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
       <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 15]]>
+      <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
       <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 0]]>
@@ -161,19 +167,19 @@
       <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 2, Elapsed time: 0]]>
     </line>
     <line>
+      <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestAdditionalOperations, Method - testSqrt, Status - 1, Elapsed time: 1]]>
+    </line>
+    <line>
       <![CDATA[Class - TestAdditionalOperations, Method - testSqrt, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testSqrt, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
       <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeTrue, Status - 2, Elapsed time: 0]]>
@@ -185,25 +191,10 @@
       <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeTrue, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeTrue, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeTrue, Status - 1, Elapsed time: 2]]>
     </line>
     <line>
-      <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 16]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
-    </line>
-    <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
+      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveTrue, Status - 1, Elapsed time: 1]]>
     </line>
     <line>
       <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveTrue, Status - 1, Elapsed time: 0]]>
@@ -212,113 +203,50 @@
       <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveTrue, Status - 1, Elapsed time: 0]]>
     </line>
     <line>
-      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveTrue, Status - 1, Elapsed time: 15]]>
+      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
+    </line>
+    <line>
+      <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
     </line>
   </reporter-output>
-  <suite name="Test" duration-ms="372" started-at="2016-11-01T15:27:18Z" finished-at="2016-11-01T15:27:19Z">
+  <suite name="Test" duration-ms="604" started-at="2016-11-03T10:29:38Z" finished-at="2016-11-03T10:29:39Z">
     <groups>
       <group name="func">
-        <method signature="TestAdditionalOperations.testIsNegativeFalse(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsNegativeFalse" class="talab.TestAdditionalOperations"/>
-        <method signature="TestAdditionalOperations.testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsNegativeTrue" class="talab.TestAdditionalOperations"/>
-        <method signature="TestAdditionalOperations.testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsPositiveFalse" class="talab.TestAdditionalOperations"/>
-        <method signature="TestAdditionalOperations.testIsPositiveTrue(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsPositiveTrue" class="talab.TestAdditionalOperations"/>
-        <method signature="TestAdditionalOperations.testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testPow" class="talab.TestAdditionalOperations"/>
-        <method signature="TestAdditionalOperations.testSqrt(double, double)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testSqrt" class="talab.TestAdditionalOperations"/>
-        <method signature="TestBasicOperations.testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivDouble" class="talab.TestBasicOperations"/>
-        <method signature="TestBasicOperations.testDivDoubleOverflow(double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivDoubleOverflow" class="talab.TestBasicOperations"/>
-        <method signature="TestBasicOperations.testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivLong" class="talab.TestBasicOperations"/>
-        <method signature="TestBasicOperations.testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultDouble" class="talab.TestBasicOperations"/>
-        <method signature="TestBasicOperations.testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultLong" class="talab.TestBasicOperations"/>
+        <method signature="TestAdditionalOperations.testIsNegativeFalse(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsNegativeFalse" class="talab.TestAdditionalOperations"/>
+        <method signature="TestAdditionalOperations.testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsNegativeTrue" class="talab.TestAdditionalOperations"/>
+        <method signature="TestAdditionalOperations.testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsPositiveFalse" class="talab.TestAdditionalOperations"/>
+        <method signature="TestAdditionalOperations.testIsPositiveTrue(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsPositiveTrue" class="talab.TestAdditionalOperations"/>
+        <method signature="TestAdditionalOperations.testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testPow" class="talab.TestAdditionalOperations"/>
+        <method signature="TestAdditionalOperations.testSqrt(double, double)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testSqrt" class="talab.TestAdditionalOperations"/>
+        <method signature="TestBasicOperations.testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivDouble" class="talab.TestBasicOperations"/>
+        <method signature="TestBasicOperations.testDivDoubleOverflow(double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivDoubleOverflow" class="talab.TestBasicOperations"/>
+        <method signature="TestBasicOperations.testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivLong" class="talab.TestBasicOperations"/>
+        <method signature="TestBasicOperations.testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultDouble" class="talab.TestBasicOperations"/>
+        <method signature="TestBasicOperations.testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultLong" class="talab.TestBasicOperations"/>
       </group> <!-- func -->
       <group name="smoke">
-        <method signature="TestBasicOperations.testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddDouble" class="talab.TestBasicOperations"/>
-        <method signature="TestBasicOperations.testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddLong" class="talab.TestBasicOperations"/>
-        <method signature="TestBasicOperations.testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubDouble" class="talab.TestBasicOperations"/>
-        <method signature="TestBasicOperations.testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubLong" class="talab.TestBasicOperations"/>
+        <method signature="TestBasicOperations.testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddDouble" class="talab.TestBasicOperations"/>
+        <method signature="TestBasicOperations.testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddLong" class="talab.TestBasicOperations"/>
+        <method signature="TestBasicOperations.testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubDouble" class="talab.TestBasicOperations"/>
+        <method signature="TestBasicOperations.testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubLong" class="talab.TestBasicOperations"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test Arithmetic Operations" duration-ms="372" started-at="2016-11-01T15:27:18Z" finished-at="2016-11-01T15:27:19Z">
+    <test name="Test Arithmetic Operations" duration-ms="604" started-at="2016-11-03T10:29:38Z" finished-at="2016-11-03T10:29:39Z">
       <class name="talab.TestBasicOperations">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="setUp" is-config="true" duration-ms="49" started-at="2016-11-01T17:27:18Z" finished-at="2016-11-01T17:27:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="setUp" is-config="true" duration-ms="25" started-at="2016-11-03T12:29:38Z" finished-at="2016-11-03T12:29:38Z">
           <reporter-output>
             <line>
               <![CDATA[Class - BaseTest, Method - setUp, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddDouble" duration-ms="15" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-10000.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-5.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-10005.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 15]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddDouble -->
-        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddLong" duration-ms="15" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 15]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddLong -->
-        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[80000.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[80003.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddDouble -->
-        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddDouble" duration-ms="23" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -338,11 +266,59 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 23]]>
             </line>
           </reporter-output>
         </test-method> <!-- testAddDouble -->
-        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddLong" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddLong -->
+        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddLong" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddLong -->
+        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -366,103 +342,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testAddLong -->
-        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-9789789.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-9789789.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddDouble -->
-        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[500]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1000]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1500]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testAddLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddLong -->
-        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[958989.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[958989.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddDouble -->
-        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[500.3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[409.3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[909.6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddDouble -->
-        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -486,31 +366,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testAddLong -->
-        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-548.9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-467.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-1015.9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddDouble -->
-        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testAddLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testAddLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -534,79 +390,103 @@
             </line>
           </reporter-output>
         </test-method> <!-- testAddLong -->
-        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddDouble" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[234433.0]]>
+                <![CDATA[80000.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[0.0]]>
+                <![CDATA[3.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[234433.0]]>
+                <![CDATA[80003.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddDouble -->
+        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddDouble" duration-ms="57" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10005.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 57]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddDouble -->
+        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubDouble" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 1]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSubDouble -->
-        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubDouble" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[7467]]>
+                <![CDATA[0.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[64]]>
+                <![CDATA[48974.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[7403]]>
+                <![CDATA[-48974.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 1]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testSubLong -->
-        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-100]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-50000]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[49900]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testSubLong -->
-        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        </test-method> <!-- testSubDouble -->
+        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -630,79 +510,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testSubDouble -->
-        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5688.6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[234378.8]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-228690.19999999998]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testSubDouble -->
-        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[879789]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-879789]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testSubLong -->
-        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-9890789]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-9890789]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testSubLong -->
-        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -726,7 +534,55 @@
             </line>
           </reporter-output>
         </test-method> <!-- testSubDouble -->
-        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubDouble" duration-ms="5" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5688.6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234378.8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-228690.19999999998]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSubDouble -->
+        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[234433.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[234433.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSubDouble -->
+        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubDouble" duration-ms="2" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -746,35 +602,107 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 2]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSubDouble -->
-        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[50.0]]>
+                <![CDATA[0.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[40.0]]>
+                <![CDATA[958989.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[10.0]]>
+                <![CDATA[958989.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testSubDouble -->
-        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        </test-method> <!-- testAddDouble -->
+        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[409.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[909.6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddDouble -->
+        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9789789.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9789789.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddDouble -->
+        <test-method status="PASS" signature="testAddDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testAddDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-548.9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-467.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1015.9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testAddDouble, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddDouble -->
+        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubLong" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -794,35 +722,107 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 1]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSubLong -->
-        <test-method status="PASS" signature="testSubDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testSubDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[0.0]]>
+                <![CDATA[0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[48974.0]]>
+                <![CDATA[879789]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[-48974.0]]>
+                <![CDATA[-879789]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testSubDouble, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testSubDouble -->
-        <test-method status="PASS" signature="testDivDoubleOverflow(double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivDoubleOverflow" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        </test-method> <!-- testSubLong -->
+        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubLong" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9890789]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9890789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSubLong -->
+        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[49900]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSubLong -->
+        <test-method status="PASS" signature="testSubLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testSubLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7467]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[64]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7403]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testSubLong, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSubLong -->
+        <test-method status="PASS" signature="testDivDoubleOverflow(double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivDoubleOverflow" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.IllegalStateException: Cannot get a NUMERIC value from a STRING cell]]>
@@ -857,79 +857,7 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivDoubleOverflow -->
-        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4467.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMultDouble -->
-        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3534]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[883]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDivLong -->
-        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-3112.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-50.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[155600.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMultDouble -->
-        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -953,45 +881,21 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testDivDouble -->
-        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5]]>
+                <![CDATA[-3112.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[5]]>
+                <![CDATA[-50.0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDivLong -->
-        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-43.2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[232.3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-0.18596642272922945]]>
+                <![CDATA[62.24]]>
               </value>
             </param>
           </params>
@@ -1001,7 +905,31 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testDivDouble -->
-        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4467.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testDivDouble, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivDouble -->
+        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1025,7 +953,151 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testDivDouble -->
-        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-23252.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-415.2214285714286]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testDivDouble, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivDouble -->
+        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivLong -->
+        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivLong" duration-ms="3" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[883]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivLong -->
+        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-43.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[232.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-0.18596642272922945]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testDivDouble, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivDouble -->
+        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3112]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivLong -->
+        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivLong" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4467]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivLong -->
+        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1049,7 +1121,55 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testMultDouble -->
-        <test-method status="FAIL" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3534.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14136.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultDouble -->
+        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivLong" duration-ms="14" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-23252]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-415]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 14]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivLong -->
+        <test-method status="FAIL" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultDouble" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1096,59 +1216,11 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 2, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 2, Elapsed time: 1]]>
             </line>
           </reporter-output>
         </test-method> <!-- testMultDouble -->
-        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3534.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[14136.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMultDouble -->
-        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-23252.4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[56.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-415.2214285714286]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testDivDouble, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDivDouble -->
-        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1162,17 +1234,17 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </param>
             <param index="2">
               <value>
-                <![CDATA[62.24]]>
+                <![CDATA[155600.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testDivDouble, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testDivDouble -->
-        <test-method status="PASS" signature="testDivDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        </test-method> <!-- testMultDouble -->
+        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1192,227 +1264,11 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testDivDouble, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testDivDouble -->
-        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3534]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[14136]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMultLong -->
-        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMultLong -->
-        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4467]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDivLong -->
-        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4467]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMultLong -->
-        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-43]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[232]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDivLong -->
-        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-3112]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-50]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[155600]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMultLong -->
-        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-744]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testMultLong -->
-        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-3112]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-50]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[62]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDivLong -->
-        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testDivLong" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-23252]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[56]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-415]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDivLong -->
-        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultDouble" duration-ms="16" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        </test-method> <!-- testMultDouble -->
+        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1432,11 +1288,11 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 16]]>
+              <![CDATA[Class - TestBasicOperations, Method - testMultDouble, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
         </test-method> <!-- testMultDouble -->
-        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@2ac1fdc4]" name="testMultDouble" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testMultDouble(double, double, double)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultDouble" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1460,64 +1316,160 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testMultDouble -->
+        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultLong" duration-ms="5" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultLong -->
+        <test-method status="PASS" signature="testDivLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testDivLong" duration-ms="11" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-43]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[232]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testDivLong, Status - 1, Elapsed time: 11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivLong -->
+        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3534]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultLong -->
+        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3112]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[155600]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultLong -->
+        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultLong" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4467]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultLong -->
+        <test-method status="PASS" signature="testMultLong(long, long, long)[pri:0, instance:talab.TestBasicOperations@71e7a66b]" name="testMultLong" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-744]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestBasicOperations, Method - testMultLong, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultLong -->
       </class> <!-- talab.TestBasicOperations -->
       <class name="talab.TestAdditionalOperations">
-        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testPow" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-10.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1.0E-10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testPow -->
-        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testPow" duration-ms="15" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 15]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testPow -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="setUp" is-config="true" duration-ms="0" started-at="2016-11-01T17:27:19Z" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="setUp" is-config="true" duration-ms="1" started-at="2016-11-03T12:29:39Z" finished-at="2016-11-03T12:29:39Z">
           <reporter-output>
             <line>
               <![CDATA[Class - BaseTest, Method - setUp, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testPow" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testPow" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1541,7 +1493,7 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testPow -->
-        <test-method status="FAIL" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testPow" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="FAIL" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testPow" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1592,26 +1544,7 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testPow -->
-        <test-method status="PASS" signature="testSqrt(double, double)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testSqrt" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4.2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.04939015319192]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testSqrt, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testSqrt -->
-        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testPow" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testPow" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1635,7 +1568,97 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testPow -->
-        <test-method status="PASS" signature="testSqrt(double, double)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testSqrt" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcel" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testPow" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0E-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPow -->
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testPow" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testPow, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPow -->
+        <test-method status="PASS" signature="testIsNegativeFalse(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsNegativeFalse" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsNegativeFalse -->
+        <test-method status="PASS" signature="testIsNegativeFalse(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsNegativeFalse" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[256]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsNegativeFalse -->
+        <test-method status="PASS" signature="testIsNegativeFalse(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsNegativeFalse" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[999999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsNegativeFalse -->
+        <test-method status="PASS" signature="testSqrt(double, double)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testSqrt" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1650,11 +1673,30 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
           </params>
           <reporter-output>
             <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testSqrt, Status - 1, Elapsed time: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSqrt -->
+        <test-method status="PASS" signature="testSqrt(double, double)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testSqrt" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcel" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.04939015319192]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
               <![CDATA[Class - TestAdditionalOperations, Method - testSqrt, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSqrt -->
-        <test-method status="FAIL" signature="testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsNegativeTrue" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="FAIL" signature="testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsNegativeTrue" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1695,63 +1737,7 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testIsNegativeTrue -->
-        <test-method status="PASS" signature="testIsNegativeFalse(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsNegativeFalse" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[256]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testIsNegativeFalse -->
-        <test-method status="PASS" signature="testIsNegativeFalse(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsNegativeFalse" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testIsNegativeFalse -->
-        <test-method status="PASS" signature="testIsNegativeFalse(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsNegativeFalse" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[999999]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeFalse, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testIsNegativeFalse -->
-        <test-method status="PASS" signature="testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsNegativeTrue" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-999999]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeTrue, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testIsNegativeTrue -->
-        <test-method status="PASS" signature="testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsPositiveFalse" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsNegativeTrue" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1761,39 +1747,11 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeTrue, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testIsPositiveFalse -->
-        <test-method status="PASS" signature="testIsPositiveTrue(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsPositiveTrue" duration-ms="15" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveTrue, Status - 1, Elapsed time: 15]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testIsPositiveTrue -->
-        <test-method status="PASS" signature="testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsPositiveFalse" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testIsPositiveFalse -->
-        <test-method status="PASS" signature="testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsNegativeTrue" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        </test-method> <!-- testIsNegativeTrue -->
+        <test-method status="PASS" signature="testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsNegativeTrue" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1807,49 +1765,21 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testIsNegativeTrue -->
-        <test-method status="PASS" signature="testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsNegativeTrue" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testIsNegativeTrue(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsNegativeTrue" duration-ms="2" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[-1]]>
+                <![CDATA[-999999]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeTrue, Status - 1, Elapsed time: 0]]>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsNegativeTrue, Status - 1, Elapsed time: 2]]>
             </line>
           </reporter-output>
         </test-method> <!-- testIsNegativeTrue -->
-        <test-method status="PASS" signature="testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsPositiveFalse" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-9999]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testIsPositiveFalse -->
-        <test-method status="PASS" signature="testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsPositiveFalse" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testIsPositiveFalse -->
-        <test-method status="PASS" signature="testIsPositiveTrue(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsPositiveTrue" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testIsPositiveTrue(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsPositiveTrue" duration-ms="1" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1859,11 +1789,25 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
           </params>
           <reporter-output>
             <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveTrue, Status - 1, Elapsed time: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsPositiveTrue -->
+        <test-method status="PASS" signature="testIsPositiveTrue(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsPositiveTrue" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
               <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveTrue, Status - 1, Elapsed time: 0]]>
             </line>
           </reporter-output>
         </test-method> <!-- testIsPositiveTrue -->
-        <test-method status="PASS" signature="testIsPositiveTrue(long)[pri:0, instance:talab.TestAdditionalOperations@7a92922]" name="testIsPositiveTrue" duration-ms="0" started-at="2016-11-01T17:27:19Z" data-provider="getDataFromExcelLong" finished-at="2016-11-01T17:27:19Z">
+        <test-method status="PASS" signature="testIsPositiveTrue(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsPositiveTrue" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
           <params>
             <param index="0">
               <value>
@@ -1877,6 +1821,62 @@ Caused by: java.lang.IllegalStateException: Cannot get a NUMERIC value from a ST
             </line>
           </reporter-output>
         </test-method> <!-- testIsPositiveTrue -->
+        <test-method status="PASS" signature="testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsPositiveFalse" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsPositiveFalse -->
+        <test-method status="PASS" signature="testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsPositiveFalse" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsPositiveFalse -->
+        <test-method status="PASS" signature="testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsPositiveFalse" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsPositiveFalse -->
+        <test-method status="PASS" signature="testIsPositiveFalse(long)[pri:0, instance:talab.TestAdditionalOperations@25618e91]" name="testIsPositiveFalse" duration-ms="0" started-at="2016-11-03T12:29:39Z" data-provider="getDataFromExcelLong" finished-at="2016-11-03T12:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Class - TestAdditionalOperations, Method - testIsPositiveFalse, Status - 1, Elapsed time: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsPositiveFalse -->
       </class> <!-- talab.TestAdditionalOperations -->
     </test> <!-- Test Arithmetic Operations -->
   </suite> <!-- Test -->
