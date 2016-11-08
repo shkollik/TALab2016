@@ -1,4 +1,4 @@
-package Locators;
+package locators;
 
 /**
  * Hello world!
