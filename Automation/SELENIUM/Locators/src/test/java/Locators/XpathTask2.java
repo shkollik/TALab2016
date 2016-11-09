@@ -26,7 +26,7 @@ public class XpathTask2 {
     private static final String PRODUCT_NAME = "Chef Anton's Cajun Seasoning";
     private static final String STRING_TO_SEARCH = "To test the behavior";
     private static final String BODY_TAG = "body";
-    private WebDriverWait wait;
+    private WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
 
     @BeforeClass
     public void setUp(){
@@ -41,11 +41,7 @@ public class XpathTask2 {
     @Test
     public void testProductDetailsContainsProductDescription() throws InterruptedException {
         pickProduct(PRODUCT_NUMBER);
-        Thread.sleep(3000); //MODIFY TO WAIT
-
-        //wait = new WebDriverWait(Driver.getDriver(), 30);
-       // wait.until(ExpectedConditions.visibilityOf(Driver.getDriver().findElement(By.xpath(PRODUCT_DESCRIPTION_PATH))));
-
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath(PRODUCT_DESCRIPTION_PATH), PRODUCT_NAME));
         Assert.assertTrue(Driver.getDriver().findElement(By.xpath(PRODUCT_DESCRIPTION_PATH)).getText().
                                                     toLowerCase().contains(PRODUCT_NAME.toLowerCase()));
     }
@@ -53,8 +49,7 @@ public class XpathTask2 {
     @Test
     public void testProductDetailsContainsSpecifiedString() throws InterruptedException {
         pickProduct(PRODUCT_NUMBER);
-        Thread.sleep(3000); //MODIFY TO WAIT
-
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath(PRODUCT_DESCRIPTION_PATH), PRODUCT_NAME));
         Assert.assertFalse(Driver.getDriver().findElement(By.xpath(PRODUCT_DESCRIPTION_PATH)).getText().
                                                             toLowerCase().contains(STRING_TO_SEARCH.toLowerCase()));
 
@@ -63,7 +58,6 @@ public class XpathTask2 {
     @Test
     public void testPageContainsSpecifiedString() throws InterruptedException {
         Driver.getDriver().get(URL);
-
         Assert.assertTrue(Driver.getDriver().findElement(By.tagName(BODY_TAG)).getText().
                 toLowerCase().contains(STRING_TO_SEARCH.toLowerCase()));
 
