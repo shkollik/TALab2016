@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My cool suite" parallel="methods" thread-count="4">
+
+    <test name="ExecutionOrder">
+        <classes>
+            <class name="locators.HomeTask"/>
+            <class name="locators.XpathTask1"/>
+            <class name="locators.XpathTask2"/>
+        </classes>
+
+    </test>
+
+</suite>

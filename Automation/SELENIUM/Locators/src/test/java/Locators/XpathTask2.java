@@ -1,17 +1,21 @@
 package locators;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.w3c.css.sac.ConditionFactory;
 import utils.Driver;
 
 import java.util.List;
+
+import static java.util.concurrent.TimeUnit.MILLISECONDS;
+import static java.util.concurrent.TimeUnit.SECONDS;
+import static sun.security.krb5.internal.KDCOptions.with;
 
 /**
  * Created by Vladyslav_Shkola on 11/8/2016.
@@ -41,15 +45,15 @@ public class XpathTask2 {
     @Test
     public void testProductDetailsContainsProductDescription() throws InterruptedException {
         pickProduct(PRODUCT_NUMBER);
-        wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath(PRODUCT_DESCRIPTION_PATH), PRODUCT_NAME));
-        Assert.assertTrue(Driver.getDriver().findElement(By.xpath(PRODUCT_DESCRIPTION_PATH)).getText().
-                                                    toLowerCase().contains(PRODUCT_NAME.toLowerCase()));
+
+        Assert.assertTrue(wait.until((ExpectedConditions.textToBePresentInElementLocated(By.xpath(PRODUCT_DESCRIPTION_PATH), PRODUCT_NAME))));
     }
 
     @Test
     public void testProductDetailsContainsSpecifiedString() throws InterruptedException {
         pickProduct(PRODUCT_NUMBER);
-        wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath(PRODUCT_DESCRIPTION_PATH), PRODUCT_NAME));
+        wait.until((ExpectedConditions.textToBePresentInElementLocated(By.xpath(PRODUCT_DESCRIPTION_PATH), PRODUCT_NAME)));
+
         Assert.assertFalse(Driver.getDriver().findElement(By.xpath(PRODUCT_DESCRIPTION_PATH)).getText().
                                                             toLowerCase().contains(STRING_TO_SEARCH.toLowerCase()));
 
@@ -71,6 +75,20 @@ public class XpathTask2 {
         WebElement button = Driver.getDriver().findElement(By.xpath(BUTTON_GET_DETAILS));
         button.sendKeys(Keys.ENTER);
     }
+
+//    ExpectedCondition<Boolean> expectation = new
+//            ExpectedCondition<Boolean>() {
+//                public Boolean apply(WebDriver driver) {
+//                    return ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete");
+//                }
+//            };
+//
+//    ExpectedCondition<Boolean> expectation2 = new
+//            ExpectedCondition<Boolean>() {
+//                public Boolean apply(WebDriver driver) {
+//                    return ((JavascriptExecutor) driver).executeScript("return jQuery.active").toString().equals(0);
+//                }
+//            };
 
 
 }
