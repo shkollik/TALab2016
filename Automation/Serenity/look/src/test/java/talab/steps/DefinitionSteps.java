@@ -1,4 +1,4 @@
-package talab.steps.cucumber;
+package talab.steps;
 
 import net.thucydides.core.annotations.Steps;
 import cucumber.api.java.en.Given;
